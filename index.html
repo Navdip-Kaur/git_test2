@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+</head>
+<body>
+
+	<header>	
+		<div class="wrapper clearfix">
+		   <div class="heading">
+			<h1>Pet Finder</h1>
+			</div>
+		</div>
+
+		<div class="search">
+			<form action="" class="mainForm">
+				<label>Animal</label>
+				<input type="search" class="animalForm" id="animal" placeholder="animal name">
+				<label>Size</label>
+				<input type="search" class="animalForm" id="size" placeholder="S,M,L">
+				<!-- <label>Location</label>
+				<input type="search" class="animalForm" id="location"> -->
+				<input type="submit" class="animalForm" id="go">
+			</form>
+		</div>
+	</header>
+
+	<div class="wrapper clearfix">
+	<main>
+		<div class="container" id="pets">
+		</div>
+	</main>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>
